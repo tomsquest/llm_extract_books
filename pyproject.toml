@@ -1,0 +1,26 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "llm-extract-books"
+version = "0.1.0"
+description = ""
+authors = ["Thomas Queste <tom@tomsquest.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.12.4"
+python-dotenv = "^1.0.1"
+baml-py = "^0.52.1"
+rich = "^13.7.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.5"
+pytest = "^8.3.2"
+pytest-dotenv = "^0.5.2"
+
+[tool.ruff]
+extend-exclude = ["baml_client"]
+

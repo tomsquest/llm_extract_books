@@ -1,0 +1,10 @@
+__pycache__/
+.ruff_cache/
+.idea/
+.venv/
+data/
+dist/
+outputs/
+.env
+.envrc
+.iml
