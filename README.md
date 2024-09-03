@@ -1,4 +1,10 @@
-# Extract Books using an LLM
+# Source for article "Get structured output from a Language Model using BAML"  
+
+This repository showcases the usage of [BAML](https://docs.boundaryml.com) to parse and validate the output of an LLM.
+
+My blog post is at: https://www.tomsquest.com/blog/2024/08/get-structured-output-from-llm-using-baml/
+
+Happy coding! 🚀
 
 ## Setup
 
